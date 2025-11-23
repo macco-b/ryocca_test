@@ -152,7 +152,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-base font-sans text-charcoal antialiased selection:bg-moss selection:text-white overflow-x-hidden">
+    <div id="top" className="min-h-screen bg-base font-sans text-charcoal antialiased selection:bg-moss selection:text-white overflow-x-hidden">
       
       {/* Custom Styles for animations not in Tailwind standard */}
       <style>{`
@@ -167,7 +167,7 @@ const App: React.FC = () => {
 
       {/* Navigation */}
       <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-700 px-6 md:px-12 py-6 flex justify-between items-center ${scrolled ? 'bg-base/80 backdrop-blur-md border-b border-neutral-200/50' : ''}`}>
-        <div className="text-lg font-bold tracking-tighter">緑家 Ryocca</div>
+        <a href="#top" aria-label="サイトトップへ戻る" className="text-lg font-bold tracking-tighter hover:text-moss transition-colors">緑家 Ryocca</a>
         <a 
           href="#contact"
           className="text-xs font-bold tracking-widest uppercase hover:text-moss transition-colors duration-300"
