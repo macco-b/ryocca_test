@@ -131,14 +131,14 @@ const App: React.FC = () => {
   }, [selectedIndex]);
 
   const worksImages = [
-    "https://images.unsplash.com/photo-1598556776374-0a390b22249e?auto=format&fit=crop&q=80&w=800&h=600", // Japanese garden moss
-    "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=800&h=800", // Bonsai/Pine detail
-    "https://images.unsplash.com/photo-1558905567-f97e2cb5833c?auto=format&fit=crop&q=80&w=800&h=600", // Zen stones
-    "https://images.unsplash.com/photo-1614591300095-17f294e32b38?auto=format&fit=crop&q=80&w=800&h=800", // Bamboo
-    "https://images.unsplash.com/photo-1621844369817-b42037080690?auto=format&fit=crop&q=80&w=800&h=600", // Garden path
-    "https://images.unsplash.com/photo-1528033683889-6868281a2885?auto=format&fit=crop&q=80&w=800&h=800", // Green maple leaves
-    "https://images.unsplash.com/photo-1599598425947-7337e6690d70?auto=format&fit=crop&q=80&w=800&h=600", // Stone basin
-    "https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&q=80&w=800&h=800", // Forest light
+    "/assets/work1.jpg",
+    "/assets/work2.jpg",
+    "/assets/work3.jpg",
+    "/assets/work4.jpg",
+    "/assets/work5.jpg",
+    "/assets/work6.jpg",
+    "/assets/work7.jpg",
+    "/assets/work8.jpg",
   ];
 
   const handleNext = (e?: React.MouseEvent) => {
