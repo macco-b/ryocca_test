@@ -464,7 +464,7 @@ const App: React.FC = () => {
           <p className="text-2xl md:text-3xl font-light text-charcoal leading-snug">
             兵庫県 阪神エリアを中心に活動中。<br />
             <span className="text-base text-neutral-500 block mt-2">
-              西宮 / 宝塚 / 伊丹 / 尼崎 / 芦屋 / 神戸 / 明石
+              西宮 / 宝塚 / 伊丹 / 尼崎 / 芦屋 / 神戸 / 兵庫県外のご対応ももちろん可能です
             </span>
           </p>
         </FadeIn>
