@@ -468,7 +468,10 @@ const App: React.FC = () => {
           <p className="text-2xl md:text-3xl font-light text-charcoal leading-snug">
             兵庫県 阪神エリアを中心に活動中。<br />
             <span className="text-base text-neutral-500 block mt-2">
-              西宮 / 宝塚 / 伊丹 / 尼崎 / 芦屋 / 神戸 / 兵庫県外のご対応ももちろん可能です
+              西宮・宝塚・伊丹・尼崎・芦屋・川西・神戸・大阪・明石に対応しています。
+            </span>
+            <span className="text-sm text-neutral-500 block mt-2">
+              ご要望に応じて、上記以外の地域への出張も可能です。これまでに県外での施工実績もあり、遠方のご依頼にも柔軟に対応いたします。
             </span>
           </p>
         </FadeIn>
