@@ -238,7 +238,7 @@ const App: React.FC = () => {
             {/* Card 1: Maintenance (Top Left, Wide) */}
             <FadeIn className="md:col-span-2">
               <BentoCard
-                subtitle="Maintenance｜お庭の手入れ・剪定・植栽"
+                subtitle="Maintenance"
                 title="1本の樹木からでも丁寧に対応いたします。"
                 description={
                   <div className="space-y-4">
