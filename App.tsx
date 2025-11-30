@@ -238,16 +238,20 @@ const App: React.FC = () => {
             {/* Card 1: Maintenance (Top Left, Wide) */}
             <FadeIn className="md:col-span-2">
               <BentoCard
-                subtitle="Maintenance"
-                title="1本の樹木からご対応いたします"
+                subtitle="Maintenance｜お庭の手入れ・剪定・植栽"
+                title="1本の樹木からでも丁寧に対応いたします。"
                 description={
                   <div className="space-y-4">
                     <p className="text-neutral-500">
-                      植木の剪定、植栽、造園、ガーデニングなど、お客様の想いとご予算に合わせた最適な庭の手入れをご提案いたします。
+                      植木の剪定、植栽、造園、ガーデニング、害虫予防など、お客様の想いやご予算に合わせて最適なメンテナンスプランをご提案いたします。
+                    </p>
+                    <p className="text-neutral-500">
+                      個人宅のお庭から店舗・施設の緑地管理まで、幅広くお任せください。
                     </p>
                     <p className="text-xs md:text-sm text-neutral-500 leading-relaxed">
-                      <span className="font-medium block mb-1 text-neutral-400">【対応エリア】</span>
-                      芦屋・神戸・明石・西宮・宝塚を中心とした阪神間（西宮市・宝塚市・芦屋市・伊丹市・尼崎市）をメインに活動しております。お庭に関するご相談は、ぜひお気軽にお問い合わせください。
+                      <span className="font-medium block mb-2 text-neutral-400">【対応エリア】</span>
+                      西宮・宝塚・伊丹・芦屋・尼崎・川西を中心に、阪神間全域（神戸・大阪・明石 含む）で対応しています。<br />
+                      地域に密着した造園業者として、お庭のお悩みや日々の手入れまで、どうぞお気軽にご相談ください。
                     </p>
                   </div>
                 }
