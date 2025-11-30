@@ -419,7 +419,7 @@ const App: React.FC = () => {
           <FadeIn className="w-full md:w-1/3 shrink-0">
              <div className="relative aspect-[3/4] rounded-[2rem] overflow-hidden bg-neutral-200">
               <img 
-                src="/assets/profile.jpg" 
+                src="/assets/profile.jpg?v=20251130" 
                 alt="Hiroki Oobuchi" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
               />
